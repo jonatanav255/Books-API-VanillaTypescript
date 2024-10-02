@@ -1,24 +1,15 @@
 {
-  "devDependencies": {
-    "typescript": "^5.6.2"
-  },
-  "name": "books-api-vanillatypescript",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "my-vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonatanav255/Books-API-VanillaTypescript.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonatanav255/Books-API-VanillaTypescript/issues"
-  },
-  "homepage": "https://github.com/jonatanav255/Books-API-VanillaTypescript#readme",
-  "description": ""
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
 }
