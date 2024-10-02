@@ -1,4 +1,4 @@
-/* :root {
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -25,7 +25,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
+  /* justify-content: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -39,7 +41,7 @@ h1 {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .logo {
@@ -64,6 +66,7 @@ h1 {
 }
 
 button {
+  margin-top: 10px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -93,4 +96,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}
